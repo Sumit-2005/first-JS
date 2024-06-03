@@ -1,3 +1,4 @@
+// First Exercise
 const product = {
     title: "ball Pen",
     rating: 4,
@@ -15,3 +16,14 @@ const profile ={
 };
 
 console.log(profile);
+
+
+//Second Exercise
+let num =prompt("Enter a Number:")
+
+if(num%5 === 0){
+    console.log(num, "is a multiple of 5");
+} else {
+    console.log(num, "is not a multiple of 5");
+}
+
