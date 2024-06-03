@@ -1,4 +1,5 @@
 // First Exercise
+
 const product = {
     title: "ball Pen",
     rating: 4,
@@ -19,6 +20,7 @@ console.log(profile);
 
 
 //Second Exercise
+
 // let num =prompt("Enter a Number:")
 
 // if(num%5 === 0){
