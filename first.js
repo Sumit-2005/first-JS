@@ -50,6 +50,29 @@
 
 //Third Exercise
 
-let fullName = prompt("Enter your full name (without spaces):");
-let username ="@"+ fullName + fullName.length;
-console.log(username);
+// let fullName = prompt("Enter your full name (without spaces):");
+// let username ="@"+ fullName + fullName.length;
+// console.log(username);
+
+
+//Fourth Exercise
+
+// let marks = [85, 97, 44, 37, 76, 60];
+// let x = 0;
+
+// for(let i=0; i<marks.length; i++) {
+//     x = x + marks[i];
+// }
+
+// let y = x/marks.length;
+// console.log(y);
+
+
+let items = [250, 645, 300, 900, 50];
+let offer = 0.1;
+
+for(let i=0; i<items.length; i++) {
+    items[i] = items[i] - items[i]*offer;
+}
+
+console.log(items);
