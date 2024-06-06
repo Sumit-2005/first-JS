@@ -68,11 +68,22 @@
 // console.log(y);
 
 
-let items = [250, 645, 300, 900, 50];
-let offer = 0.1;
+// let items = [250, 645, 300, 900, 50];
+// let offer = 0.1;
 
-for(let i=0; i<items.length; i++) {
-    items[i] = items[i] - items[i]*offer;
-}
+// for(let i=0; i<items.length; i++) {
+//     items[i] = items[i] - items[i]*offer;
+// }
 
-console.log(items);
+// console.log(items);
+
+
+let comp = ["Bloomberg", "Micosoft", "Uber", "Google", "IBM", "Netflix"];
+console.log(comp.unshift());
+
+comp.splice(2, 1, "OLA");
+console.log(comp);
+
+comp.push("Amazon");
+console.log(comp);
+
